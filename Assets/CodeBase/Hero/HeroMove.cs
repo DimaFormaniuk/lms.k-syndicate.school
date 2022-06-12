@@ -22,11 +22,7 @@ namespace CodeBase.Hero
         private void Start()
         {
             _camera = Camera.main;
-
-            CameraFollow();
         }
-
-        private void CameraFollow() => _camera.GetComponent<Cameralogic.CameraFollow>().Follow(gameObject);
 
         private void Update()
         {
