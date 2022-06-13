@@ -1,12 +1,9 @@
-﻿namespace CodeBase.Infrastructure
+﻿namespace CodeBase.Infrastructure.States
 {
     public class GameLoopState : IState
     {
-        //private GameStateMachine gameStateMachine;
-
         public GameLoopState(GameStateMachine gameStateMachine)
         {
-            //this.gameStateMachine = gameStateMachine;
         }
 
         public void Enter()
