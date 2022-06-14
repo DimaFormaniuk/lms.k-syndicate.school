@@ -1,6 +1,5 @@
-﻿using CodeBase.Services.Input;
+﻿using CodeBase.Infrastructure.Services;
 using CodeBase.Infrastructure.States;
-using CodeBase.Infrastructure.Services;
 
 namespace CodeBase.Infrastructure
 {

@@ -29,6 +29,7 @@ namespace CodeBase.Infrastructure
                 yield return null;
 
             yield return null;
+            yield return null;
 
             onLoaded?.Invoke();
         }
